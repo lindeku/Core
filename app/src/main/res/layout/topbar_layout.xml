@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+
+        android:id="@+id/toolbar"
+        android:background="#005aa0"
+        android:layout_height="50dp"
+       >
+        <Button
+            android:id="@+id/returnl"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+             android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/common_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:id="@+id/menu_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/common_menu"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+
+                />
+            <TextView
+                android:id="@+id/biaozhu"
+                android:layout_width="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffff"
+
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+              />
+        </LinearLayout>
+    </RelativeLayout>
+
